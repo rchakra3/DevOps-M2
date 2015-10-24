@@ -1,4 +1,5 @@
 # M2 - The Big One [AKA Test + Analysis]
+The main objective of this milestone is to setup the Testing and Analysis framework for the project. Given below are the different components of the framework.
 
 ### Project Used:
 
@@ -16,7 +17,7 @@ We used different branches of [this fork](https://github.com/muchhalsagar88/comm
 ### Steps taken
 
 - ***The ability to run unit tests, measure coverage, and report the results:***
-    - We used a Jenkins plugin called Cobertura to run unit tests and create an XML file with the coverage report. 
+    - We used maven to run the unit tests and a plugin called Cobertura to measure the code coverage and create an XML file with the coverage report. 
 
 - ***The ability to improve testing coverage using one of the techniques covered in class: constraint-based test generation, fuzzing, etc. You can use an existing tool or implement your own approach:***
     - For this part, we used a test generation tool called Randoop. It uses a fuzzing technique to generate test cases.
@@ -29,7 +30,7 @@ We used different branches of [this fork](https://github.com/muchhalsagar88/comm
     - We used the FindBugs Jenkins plugin for static analysis. This runs on the source code and shows a list of bugs/warnings based on certain rules that can be selected.
 
 - ***The ability to extend an existing analysis tool with a custom analysis, or implement a new analysis from scratch.***
-    - After a **huge** number of failed attempts at creating a Custom FindBugs or PMD plugin, we decided to use a python script in order to:
+    - After a **huge** number of failed attempts at creating a Custom FindBugs or PMD plugin, we decided to implement our own custom analysis by using a python script in order to:
         - walk through the directories
         - find the JAVA files in our project
         - count the number of lines which are comments
