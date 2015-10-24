@@ -6,8 +6,11 @@ We used different branches of [this fork](https://github.com/muchhalsagar88/comm
 
 ### Artifacts:
 
-- Code Repository: [Link](https://github.com/muchhalsagar88/commons-collections)
-- Screencast: [Link](/screencast/screencast.mp4)
+- [Code Repository](https://github.com/muchhalsagar88/commons-collections)
+- [Custom Analysis Script](scripts/codetocomment.py)
+- [Pre-commit Hook](scripts/pre-commit)
+- [Pre-commit Code](scripts/TokenParser.java)
+- [Screencast](/screencast/screencast.mp4)
 
 
 ### Steps taken
