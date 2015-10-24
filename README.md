@@ -9,7 +9,7 @@ We used different branches of [this fork](https://github.com/muchhalsagar88/comm
 
 - [Code Repository](https://github.com/muchhalsagar88/commons-collections)
 - [Custom Analysis Script](scripts/codetocomment.py)
-- [Pre-commit Hook](scripts/pre-commit)
+- [Pre-commit Hook to prevent uploading secrets](scripts/pre-commit)
 - [Pre-commit Code](scripts/TokenParser.java)
 - [Screencast](/screencast/screencast.mp4)
 
