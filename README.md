@@ -14,7 +14,7 @@ We used different branches of [this fork](https://github.com/muchhalsagar88/comm
 - [Screencast](/screencast/screencast.mp4)
 
 
-### Steps taken
+### Tests
 
 - ***The ability to run unit tests, measure coverage, and report the results:***
     - We used maven to run the unit tests and a plugin called Cobertura to measure the code coverage and create an XML file with the coverage report. 
@@ -25,6 +25,7 @@ We used different branches of [this fork](https://github.com/muchhalsagar88/comm
     ```
     java -classpath "/home/sagar/randoop-1.3.6.jar:/home/sagar/commons-collections4-4.0.jar" randoop.main.Main gentests --classlist=/home/sagar/classes.txt --timelimit=600 --output-tests=pass
     ```
+### Analysis
 
 - ***The ability to run an existing static analysis tool on the source code, process its results, and report its findings:***
     - We used the FindBugs Jenkins plugin for static analysis. This runs on the source code and shows a list of bugs/warnings based on certain rules that can be selected.
