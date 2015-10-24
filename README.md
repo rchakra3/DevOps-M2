@@ -9,6 +9,9 @@ We used different branches of [this fork](https://github.com/muchhalsagar88/comm
 - Code Repository: [Link](https://github.com/muchhalsagar88/commons-collections)
 - Screencast: [Link](/screencast/screencast.mp4)
 
+
+### Steps taken
+
 - The ability to run unit tests, measure coverage, and report the results:
     - We used a Jenkins plugin called Cobertura to run unit tests and create an XML file with the coverage report. 
 
