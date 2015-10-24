@@ -25,7 +25,7 @@ We used different branches of [this fork](https://github.com/muchhalsagar88/comm
 - ***The ability to run an existing static analysis tool on the source code, process its results, and report its findings:***
     - We used the FindBugs Jenkins plugin for static analysis. This runs on the source code and shows a list of bugs/warnings based on certain rules that can be selected.
 
-- ***The ability to extend an existing analysis tool with a custom analysis, or implement a new analysis from scratch. ***
+- ***The ability to extend an existing analysis tool with a custom analysis, or implement a new analysis from scratch.***
     - After a **huge** number of failed attempts at creating a Custom FindBugs or PMD plugin, we decided to use a python script in order to:
         - walk through the directories
         - find the JAVA files in our project
