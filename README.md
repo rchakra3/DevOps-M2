@@ -25,6 +25,7 @@ We used different branches of [this fork](https://github.com/muchhalsagar88/comm
     ```
     java -classpath "/home/sagar/randoop-1.3.6.jar:/home/sagar/commons-collections4-4.0.jar" randoop.main.Main gentests --classlist=/home/sagar/classes.txt --timelimit=600 --output-tests=pass
     ```
+
 ### Analysis
 
 - ***The ability to run an existing static analysis tool on the source code, process its results, and report its findings:***
