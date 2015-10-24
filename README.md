@@ -2,12 +2,12 @@
 
 ### Project Used:
 
-We used different branches of ![this fork](https://github.com/muchhalsagar88/commons-collections) of the Apache Commons library
+We used different branches of [this fork](https://github.com/muchhalsagar88/commons-collections) of the Apache Commons library
 
 ### Artifacts:
 
-- Code Repository: ![Link](https://github.com/muchhalsagar88/commons-collections)
-- Screencast: ![Link](/screencast/screencast.mp4)
+- Code Repository: [Link](https://github.com/muchhalsagar88/commons-collections)
+- Screencast: [Link](/screencast/screencast.mp4)
 
 - The ability to run unit tests, measure coverage, and report the results:
     - We used a Jenkins plugin called Cobertura to run unit tests and create an XML file with the coverage report. 
